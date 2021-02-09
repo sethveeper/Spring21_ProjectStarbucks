@@ -9,6 +9,8 @@ package program;
  *
  * @author Seth Veeper
  */
+
+// This does work, but we have to implement in both extended classes and use a generic (which is fine, but more work)
 public class Circle extends GeoObject implements Comparable<GeoObject> {
 
     public double radius;
